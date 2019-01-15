@@ -16,7 +16,7 @@ class SendMsg extends React.Component {
     return (
       <div className='send-msg'>
         <input type="text" onChange={this.handleChanged} />
-        <button onClick={this.handleClick}></button>
+        <button onClick={this.handleClick}>send</button>
       </div>
     )
   }
